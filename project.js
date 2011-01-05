@@ -1,3 +1,4 @@
+/* fixed */
 function init(key) {
 	newInit(key);
 }
