@@ -1,9 +1,9 @@
-function init() {
-	newInit();
+function init(key) {
+	newInit(key);
 }
 
-function newInit() {
-	return 'global';
+function newInit(e) {
+	return e;
 }
 
-init();
+init("hello");
