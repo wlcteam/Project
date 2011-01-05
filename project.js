@@ -1,3 +1,9 @@
 function init() {
-	return 'init';
+	newInit();
 }
+
+function newInit() {
+	return 'global';
+}
+
+init();
